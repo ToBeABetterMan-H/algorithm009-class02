@@ -39,6 +39,15 @@ package com.wxh.algorithm;
  */
 
 public class HasCycle_141 {
+    class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) {
+         val = x;
+         next = null;
+     }
+ }
+
     /**
      * 快慢指针
      * 快指针每次移动2步，慢指针每次移动1步

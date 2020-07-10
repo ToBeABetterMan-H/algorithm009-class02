@@ -16,6 +16,12 @@ package com.wxh.algorithm;
  * */
 
 public class ReverseList_206 {
+    public class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
+
     /** 迭代 */
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;

@@ -39,6 +39,14 @@ package com.wxh.algorithm;
  */
 
 public class DetectCycle_142 {
+    class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) {
+          val = x;
+          next = null;
+      }
+  }
 
     /**
      * 起始点A

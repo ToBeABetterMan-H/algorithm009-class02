@@ -1,4 +1,3 @@
-package com.wxh.algorithm;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +11,13 @@ import java.util.Stack;
  * 2020-05-31 17:04:57
  */
 public class InorderTraversal_94 {
+    public class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+ }
+
     /** 1. recursion */
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

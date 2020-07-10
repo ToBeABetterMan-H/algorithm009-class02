@@ -11,6 +11,12 @@ import java.util.List;
  * 2020-05-31 17:04:57
  */
 public class InorderTraversal_94 {
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
     /** recursion */
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return new ArrayList<>();

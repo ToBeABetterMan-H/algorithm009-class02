@@ -1,6 +1,4 @@
-package com.wxh.algorithm.week03;
 
-import com.wxh.algorithm.TreeNode;
 
 /**
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
@@ -29,6 +27,13 @@ import com.wxh.algorithm.TreeNode;
  * 2020-06-07 23:30:40
  * */
 public class BuildTree_105 {
+    public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return helper(0, 0, inorder.length - 1, preorder, inorder);
     }

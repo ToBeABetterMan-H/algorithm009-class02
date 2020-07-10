@@ -1,7 +1,3 @@
-package com.wxh.algorithm.week03;
-
-import com.wxh.algorithm.ListNode;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -28,6 +24,12 @@ import java.util.LinkedList;
  * 2020-06-03 09:33:53
  * */
 public class ReversePrint_6 {
+    public class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) { val = x; }
+ }
+
     /**
      * Stack
      * Time Complexity: O(n) + O(n)
